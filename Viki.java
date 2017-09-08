@@ -19,7 +19,7 @@ public class Viki {
 		do {
 			try {
 				//Calls Viki URL
-				String viki = readUrl("http://api.viki.io/v4/videos.json?app=100250a&per_page=10&page=" + pageNumber);
+				String viki = readUrl("http://api.viki.io/v4/videos.json?app=100250a&per_page=10&page=1" + pageNumber);
 				JSONObject obj = new JSONObject(viki);
 				
 				//Gets the "more" field value
