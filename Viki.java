@@ -29,7 +29,7 @@ public class Viki {
 				JSONArray array = obj.getJSONArray("response");
 				
 				//Look for a key called flags
-                     //And a key called hd within flags
+                                //And a key called hd within flags
 				for (int i = 0; i < array.length(); i++) {
 
 					JSONObject flag = new JSONObject(array.getJSONObject(i).getString("flags"));
