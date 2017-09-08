@@ -57,8 +57,8 @@ public class Viki {
 			}
 		} while (more);
 		
-		System.out.println("True Count:" + countHDTrue);
-		System.out.println("False Count:" + countHDFalse);
+		System.out.println("FlagsHd set to True:" + countHDTrue);
+		System.out.println("FlagsHd set to False" + countHDFalse);
 		System.out.println("Page Count:" + pageNumber);
 	}
 	
